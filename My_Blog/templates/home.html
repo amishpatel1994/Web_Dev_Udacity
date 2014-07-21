@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+<hr>
+{% block content %}
+
+{% for entry in blogs %}
+<div class = "post">
+	<div class="post-heading">
+		<a href="/{{ entry.key().id() }}"class="post-title">{{ entry.subject }}</a>
+		<div class="post-date">
+      		{{entry.dateCreated}}
+    	</div>
+	</div>
+
+	<div class="post-content">
+		<pre style="width:100%">{{ entry.content }}</pre>
+	</div>
+</div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,10 @@
+application: oval-bazaar-628
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: rot_13.application
+
