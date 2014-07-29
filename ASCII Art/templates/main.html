@@ -7,10 +7,17 @@
 
 	<style type="text/css">
 		body{
+			position: relative;
 			font-family: sans-serif;
-			width: 700 px;
+			width: 800 px;
 			margin: 0 auto;
 			padding: 10px;
+		}
+
+		.map{
+			position: absolute;
+			right: 30px;
+			top: 112px;
 		}
 
 		.error{
@@ -70,7 +77,9 @@
 
 			<input type="submit" value="submit">
 		</form>
-
+		{% if img_url %}
+			<img src="{{img_url}}" class="map">
+		{% endif %}
 		<hr>
 
 		{% for art in arts %}
