@@ -1,0 +1,47 @@
+.title{
+	text-align: right;
+	color: grey;
+}
+
+.subtitle{
+	text-align: right;
+	color: grey;
+}
+
+*{
+	color: grey;
+}
+
+body {
+	margin:0px 30px; 
+	padding:0px;
+	text-align:center;
+}
+
+/* code to centre the images */
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 1020px) {
+	.side{
+		display: none;
+	}
+}
+
+.side{
+	margin-top: 125px;
+}
+
+.main-content{
+
+}
+
+hr{
+	border: 2px solid grey;
+}
+
+p{
+	text-align: center;
+}
