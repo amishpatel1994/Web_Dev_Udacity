@@ -1,6 +1,6 @@
 var myBio = {
 	"name": "Amish Patel",
-	"role": "Web Developer",
+	"role": "Software Developer",
 	"contacts": {
 		"email":"av2patel@uwaterloo.ca",
 		"github": "amishpatel1994",

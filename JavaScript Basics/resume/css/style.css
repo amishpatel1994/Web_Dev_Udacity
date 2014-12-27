@@ -114,6 +114,10 @@ a {
   background-color: #4A4A4A;
 }
 
+.darkgray-text{
+  color: #4A4A4A;
+}
+
 /* TODO: Replace with image later */
 #header {
   background-color: #484848;
@@ -154,7 +158,7 @@ img {
 .project-image{
   max-width: 200px;
   height: auto;
-  
+
 }
 
 /* Bar chart stuff */
